@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Legal | Agricultura Vertical</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        
+        .legal-content h1 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+        
+        .legal-content h2 {
+            text-align: left;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        .legal-content h2::after {
+            left: 0;
+            transform: none;
+            width: 60px;
+        }
+        
+        .legal-content p, .legal-content ul, .legal-content ol {
+            margin-bottom: 20px;
+        }
+        
+        .legal-content ul, .legal-content ol {
+            padding-left: 20px;
+        }
+        
+        .legal-content li {
+            margin-bottom: 10px;
+        }
+        
+        .legal-content a {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+        
+        .legal-content a:hover {
+            text-decoration: none;
+        }
+        
+        .legal-date {
+            margin-top: 50px;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+        
+        .legal-header {
+            padding-top: 100px;
+            background: linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(17,17,17,0.9) 100%);
+            text-align: center;
+        }
+        
+        .legal-header h1 {
+            margin-bottom: 20px;
+        }
+        
+        .legal-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .legal-nav a {
+            padding: 8px 15px;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+        }
+        
+        .legal-nav a:hover, .legal-nav a.active {
+            background-color: rgba(46, 204, 113, 0.1);
+            color: var(--primary-color);
+        }
+        
+        .legal-nav a.active {
+            border-bottom: 2px solid var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .legal-nav {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- FONDO CON EFECTO -->
+    <div class="background-effect">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navegación -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- AQUÍ VA TU LOGO -->
+                <a href="index.html">
+                    <div class="logo-placeholder">LOGO</div>
+                </a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#beneficios">Beneficios</a></li>
+                <li><a href="index.html#tecnologia">Tecnología</a></li>
+                <li><a href="index.html#casos">Aplicaciones</a></li>
+                <li><a href="index.html#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cabecera Legal -->
+    <header class="legal-header">
+        <div class="container">
+            <h1>Legal</h1>
+            <div class="legal-nav">
+                <a href="privacidad.html">Política de Privacidad</a>
+                <a href="terminos.html">Términos y Condiciones</a>
+                <a href="aviso-legal.html" class="active">Aviso Legal</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Legal -->
+    <section class="legal-content">
+        <h1>Aviso Legal</h1>
+        
+        <p>Última actualización: <span id="current-date">1 de mayo de 2024</span></p>
+        
+        <h2>Información del Titular</h2>
+        
+        <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informamos que:</p>
+        
+        <ul>
+            <li><strong>Denominación Social:</strong> [NOMBRE DE TU EMPRESA]</li>
+            <li><strong>NIF/CIF:</strong> [TU NIF/CIF]</li>
+            <li><strong>Domicilio Social:</strong> [TU DIRECCIÓN]</li>
+            <li><strong>Teléfono:</strong> [TU TELÉFONO]</li>
+            <li><strong>Email:</strong> [TU EMAIL]</li>
+            <li><strong>Sitio Web:</strong> [TU SITIO WEB]</li>
+            <li><strong>Datos Registrales:</strong> [DATOS DE INSCRIPCIÓN EN EL REGISTRO MERCANTIL]</li>
+        </ul>
+        
+        <h2>Objeto</h2>
+        
+        <p>El presente Aviso Legal regula el uso del sitio web [TU SITIO WEB] (en adelante, el "Sitio Web"), del que es titular [NOMBRE DE TU EMPRESA].</p>
+        
+        <p>La navegación por el Sitio Web atribuye la condición de usuario del mismo e implica la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en este Aviso Legal, que pueden sufrir modificaciones.</p>
+        
+        <h2>Propiedad Intelectual e Industrial</h2>
+        
+        <p>Todos los derechos de propiedad intelectual e industrial del Sitio Web, incluyendo, a título enunciativo pero no limitativo, su programación, edición, compilación y demás elementos necesarios para su funcionamiento, los diseños, logotipos, texto y/o gráficos, son propiedad de [NOMBRE DE TU EMPRESA] o, en su caso, dispone de licencia o autorización expresa por parte de los autores.</p>
+        
+        <p>Todos los contenidos del Sitio Web están protegidos por derechos de propiedad intelectual e industrial, y se encuentran inscritos en los correspondientes registros públicos. Independientemente de la finalidad para la que fueran destinados, la reproducción total o parcial, uso, explotación, distribución y comercialización, requiere en todo caso de la autorización escrita previa por parte de [NOMBRE DE TU EMPRESA].</p>
+        
+        <p>Cualquier uso no autorizado previamente se considera un incumplimiento grave de los derechos de propiedad intelectual o industrial del autor.</p>
+        
+        <h2>Condiciones de Uso</h2>
+        
+        <p>Para hacer uso de este Sitio Web, el usuario debe tener la mayoría de edad legal y aceptar expresamente las condiciones y términos de uso que se detallan a continuación:</p>
+        
+        <ul>
+            <li>Queda prohibido el uso del Sitio Web con fines ilícitos o lesivos contra [NOMBRE DE TU EMPRESA] o cualquier tercero, o que, de cualquier forma, puedan causar perjuicio o impedir el normal funcionamiento del Sitio Web.</li>
+            <li>El usuario se compromete a proporcionar información veraz en los formularios del Sitio Web y a mantener los datos actualizados.</li>
+            <li>[NOMBRE DE TU EMPRESA] no puede garantizar la continuidad técnica del Sitio Web, la ausencia de fallos o interrupciones del servicio ni que el Sitio Web estará disponible o accesible el cien por cien del tiempo.</li>
+        </ul>
+        
+        <h2>Responsabilidad</h2>
+        
+        <p>[NOMBRE DE TU EMPRESA] se exime de cualquier tipo de responsabilidad derivada de la información publicada en su Sitio Web siempre que esta información haya sido manipulada o introducida por un tercero ajeno al mismo.</p>
+        
+        <p>El Sitio Web puede utilizar cookies (pequeños archivos de información que el servidor envía al ordenador de quien accede a la página) para llevar a cabo determinadas funciones que son consideradas imprescindibles para el correcto funcionamiento y visualización del sitio. Las cookies utilizadas en el Sitio Web tienen, en todo caso, carácter temporal con la única finalidad de hacer más eficaz su transmisión ulterior y desaparecen al terminar la sesión del usuario.</p>
+        
+        <p>Desde el Sitio Web es posible que se redirija a contenidos de terceros sitios web. Dado que [NOMBRE DE TU EMPRESA] no puede controlar siempre los contenidos introducidos por los terceros en sus sitios web, éste no asume ningún tipo de responsabilidad respecto a dichos contenidos. En todo caso, [NOMBRE DE TU EMPRESA] manifiesta que procederá a la retirada inmediata de cualquier contenido que pudiera contravenir la legislación nacional o internacional, la moral o el orden público, procediendo a la retirada inmediata de la redirección a dicho sitio web, poniendo en conocimiento de las autoridades competentes el contenido en cuestión.</p>
+        
+        <h2>Ley Aplicable y Jurisdicción</h2>
+        
+        <p>Para la resolución de todas las controversias o cuestiones relacionadas con el presente Sitio Web o de las actividades en él desarrolladas, será de aplicación la legislación española, a la que se someten expresamente las partes, siendo competentes para la resolución de todos los conflictos derivados o relacionados con su uso los Juzgados y Tribunales de [TU CIUDAD].</p>
+        
+        <h2>Contacto</h2>
+        
+        <p>Si tienes alguna pregunta sobre este Aviso Legal, puedes contactarnos a través de:</p>
+        
+        <ul>
+            <li>Email: [TU EMAIL]</li>
+            <li>Teléfono: [TU TELÉFONO]</li>
+            <li>Dirección: [TU DIRECCIÓN]</li>
+        </ul>
+        
+        <div class="legal-date">
+            <p>Última actualización: <span id="current-date-footer">1 de mayo de 2024</span></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <!-- AQUÍ VA TU LOGO -->
+                    <div class="logo-placeholder">LOGO</div>
+                    <!-- AQUÍ VA TU ESLOGAN -->
+                    <p>Cultivamos el futuro, hoy</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html#inicio">Inicio</a></li>
+                        <li><a href="index.html#nosotros">Nosotros</a></li>
+                        <li><a href="index.html#beneficios">Beneficios</a></li>
+                        <li><a href="index.html#tecnologia">Tecnología</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos.html">Términos y Condiciones</a></li>
+                        <li><a href="aviso-legal.html">Aviso Legal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Mantente Informado</h4>
+                    <p>Suscríbete a nuestro boletín para recibir las últimas noticias y actualizaciones.</p>
+                    <form class="newsletter-form" action="https://formsubmit.co/TU-EMAIL@AQUI.COM" method="POST">
+                        <input type="hidden" name="_subject" value="Nueva suscripción al boletín">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="email" name="email" placeholder="Tu email" required>
+                        <button type="submit">Suscribirse</button>
+                    </form>
+                    
+                    <!-- ENLACES A REDES SOCIALES EN EL FOOTER -->
+                    <div class="social-links">
+                        <!-- REEMPLAZA LOS # CON TUS ENLACES A REDES SOCIALES -->
+                        <!-- LinkedIn -->
+                        <a href="https://linkedin.com/company/tu-empresa" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <!-- Twitter / X -->
+                        <a href="https://twitter.com/tu_empresa" target="_blank" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://instagram.com/tu_empresa" target="_blank" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <!-- AQUÍ VA TU NOMBRE DE EMPRESA Y AÑO -->
+                <p>&copy; <span id="current-year"></span> Tu Empresa de Agricultura Vertical. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Actualizar la fecha actual en el aviso legal
+        document.addEventListener('DOMContentLoaded', function() {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const currentDate = new Date().toLocaleDateString('es-ES', options);
+            
+            const dateElements = document.querySelectorAll('#current-date, #current-date-footer');
+            dateElements.forEach(element => {
+                element.textContent = currentDate;
+            });
+        });
+    </script>
+</body>
+</html>
